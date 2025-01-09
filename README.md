@@ -5,13 +5,8 @@ A simple cloudflare worker that returns the IP address of a request. It also con
 - https://ip.tarna.workers.dev - Returns both the request IP and information about it provided by cloudflare in a JSON format.
 - https://ip.tarna.workers.dev/plain - Returns just the request IP in a simple text format.
 
-## Deploy Yourself
-```sh
-npm create cloudflare -- my-app
-# Select "Template from a GitHub repo" and paste this repo.
-cd my-app
-npx wrangler deploy
-```
+## Deploy
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/tarna/ip-worker)
 
 ## Usage
 ### JavaScript / TypeScript
